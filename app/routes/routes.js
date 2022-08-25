@@ -13,6 +13,8 @@ module.exports = app => {
   // Retrieve all states for alfas
   router.get("/estados", alfas.findAllEstadosPorAlfa);
 
+
+ // Retrieve all names of alfas
   router.get("/name-alfas", alfas.findAllNameAlfas);
 
 
